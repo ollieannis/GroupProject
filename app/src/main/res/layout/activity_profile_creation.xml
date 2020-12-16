@@ -21,7 +21,8 @@
             android:layout_height="219dp"
             tools:srcCompat="@tools:sample/avatars[0]" />
 
-        <TextView
+        <Button
+            android:id="@+id/signIn"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_marginLeft="-10dp"
@@ -33,7 +34,8 @@
             android:text="Sign in"
             android:textSize="18dp" />
 
-        <TextView
+        <Button
+            android:id="@+id/createAccount"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_marginLeft="-10dp"
@@ -43,7 +45,7 @@
             android:gravity="center"
             android:paddingLeft="20dp"
             android:text="Create Account"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
 
     </LinearLayout>
 

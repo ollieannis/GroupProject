@@ -46,13 +46,14 @@
             android:textSize="18dp"
             android:layout_marginLeft="5dp" />
 
-        <TextView
+        <EditText
+            android:id="@+id/fname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter First Name "
             android:layout_marginLeft="25dp"
-            android:textSize="18dp"
-            android:textColor="@android:color/darker_gray"/>
+            android:text="Enter First Name "
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -82,13 +83,14 @@
             android:textSize="18dp"
             android:layout_marginLeft="5dp" />
 
-        <TextView
+        <EditText
+            android:id="@+id/lname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter Last Name"
             android:layout_marginLeft="25dp"
-            android:textSize="18dp"
-            android:textColor="@android:color/darker_gray"/>
+            android:text="Enter Last Name"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -118,7 +120,8 @@
             android:textSize="18dp"
             android:layout_marginLeft="5dp" />
 
-        <TextView
+        <EditText
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="68dp"
@@ -157,7 +160,8 @@
             android:textSize="18dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
+            android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -173,7 +177,8 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
+            android:id="@+id/accountCreated"
             android:layout_width="240dp"
             android:layout_height="52dp"
             android:layout_marginLeft="-10dp"
@@ -183,7 +188,7 @@
             android:gravity="center"
             android:paddingLeft="20dp"
             android:text="Create Account"
-            android:textSize="18dp" />
+            android:textSize="15dp" />
     </LinearLayout>
 
 

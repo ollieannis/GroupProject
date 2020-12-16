@@ -61,7 +61,8 @@
             android:textSize="18dp"
             android:layout_marginLeft="5dp" />
 
-        <TextView
+        <EditText
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="68dp"
@@ -100,7 +101,8 @@
             android:textSize="18dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
+            android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -116,7 +118,8 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
+            android:id="@+id/signedIn"
             android:layout_width="240dp"
             android:layout_height="52dp"
             android:layout_marginLeft="-10dp"

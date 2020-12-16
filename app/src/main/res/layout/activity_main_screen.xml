@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Whose Phone is this?"
+            android:textColor="#FF3A5C"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="#FF3A5C" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="189dp"
+            android:layout_height="190dp"
+            tools:srcCompat="@tools:sample/avatars[0]" />
+
+        <Button
+            android:id="@+id/profilecreationbtn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_btn"
+            android:text="Parent"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="189dp"
+            android:layout_height="190dp"
+            tools:srcCompat="@tools:sample/avatars[8]" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_btn"
+            android:text="Child"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

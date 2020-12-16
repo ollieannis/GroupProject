@@ -33,8 +33,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#FF3A5C"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:background="#FF3A5C" />
 
 
     </LinearLayout>
@@ -154,7 +154,8 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <TextView
+        <Button
+            android:id="@+id/btn1"
             android:layout_width="180dp"
             android:layout_height="50dp"
             android:layout_marginLeft="-10dp"
@@ -165,13 +166,14 @@
             android:text="Edit Profile"
             android:textSize="15dp" />
 
-        <TextView
+        <Button
+            android:id="@+id/btn2"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:background="@drawable/bg_btn"
             android:text="Change Password"
             android:gravity="center"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:drawableLeft="@drawable/ic_lock"
             android:paddingLeft="20dp"
             android:layout_marginLeft="-10dp"
